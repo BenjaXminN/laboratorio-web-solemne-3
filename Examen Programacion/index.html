@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Benjamin Mellado</title>
+
+    <style>
+        @font-face {
+            font-family:"Krona One";
+            src: url('./Krona_One/KronaOne-Regular.ttf');
+        }
+
+        body{
+            background-image: url(FondoE.jpg);
+            font-family: "Krona One";
+        }
+
+        .barra{
+            background-color: rgb(65, 65, 65);
+            height: 180px;
+            width: 100%;         
+            box-shadow: 0px 5px 30px 60px #656565;
+            grid-template-columns: max-content;
+            object-position: 50%;
+            padding: 30px;
+            box-sizing: border-box;
+
+        }
+        .yoimg{
+            height: 150px;
+            width: 400px;
+            background-image: url(titulo\ de\ pagina.png);
+            background-size: contain;
+            margin: 0 auto;
+            background-repeat: no-repeat;
+        }
+
+        .gato{
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            height: 300px;
+        }
+
+         .redesimg{
+            height: 160px;
+            width: 500px;
+            background-image: url(redes.png);
+            background-size: contain;
+            margin: 0 auto;
+            background-repeat: no-repeat
+            
+        }
+        .contenedor{
+            margin: 0px;
+            height: 50px;
+            width: 100%;
+            position: absolute;
+        }
+        .boton1{
+            height: 50px;
+            width: 25%;
+            background-color: #E3AC16;
+            border-style: none;
+            cursor: pointer;    
+            position: absolute;
+            margin-left: 0%; 
+        }
+        .boton2{
+            height: 50px;
+            width: 25%;
+            background-color: #3F4DE6;
+            border-style: none;
+            cursor: pointer;
+            position: absolute;
+            margin-left: 25%; 
+        }
+        .boton3{
+            height: 50px;
+            width: 25%;
+            background-color: #780076;
+            border-style: none;
+            cursor: pointer;
+            position: absolute;
+            margin-left: 50%;  
+        } 
+        .boton4{
+            height: 50px;
+            width: 25%;
+            background-color:#da3434;
+            border-style: none;
+            cursor: pointer;
+            position: absolute;
+            margin-left: 75%; 
+           }
+        .presentacion{
+            height: 100%;
+            width: 70%;
+            background-color: #E3AC16;
+            margin: 0 auto;
+            border-radius: 50px;
+            margin-top: 200px;
+
+        }
+        .exivision{
+            margin-top: 100px;
+            height: 90vh;
+            overflow: hidden;
+        }
+        .itemCarrusel{
+            height: 100%;
+            position: relative;
+        }
+        
+        .tarjetaCarrusel{
+            height: 100%;
+        }
+
+        .flechasCarrusel{
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #tarjeta1{
+            background-image: url(trabajo1.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 50%;
+        }
+        #tarjeta2{
+            background-image: url(trabajo2.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 50%;
+        }
+        #tarjeta3{
+            background-image: url(trabajo3.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 50%;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        .flecha1{
+            background-image: url(Sin\ título-2.png);
+            height: 25%;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .boton1:hover {
+            transform: scale(1.1);
+            position: absolute;
+            z-index: 1;
+        }
+        .boton2:hover {
+            transform: scale(1.1);
+            position: absolute;
+            z-index: 1;
+        }   
+        .boton3:hover {
+            transform: scale(1.1);
+            position: absolute;
+            z-index: 1;
+        }   
+        .boton4:hover {
+            transform: scale(1.1);
+            position: absolute;
+            z-index: 1;
+        }   
+
+        
+    </style>
+
+</head>
+
+<body style="margin: 0%;">
+
+<header class="texto1">
+    <div class="barra">
+
+
+        <div class="yoimg">
+        </div>
+
+
+    </div>
+</header>
+
+    <div class="contenedor">
+        <button class="boton1" onclick="location.href='#seccion2'" style=" transition: 0.3s ease;"></div>
+        <div class="boton2" onclick="window.open('Digitales/index2.html', '_blank')"></div> 
+        <div class="boton3" onclick="window.open('Analogos/index3.html', '_blank')"></div> 
+        <div class="boton4" onclick="location.href='#seccion3'" style=" transition: 0.3s ease;"></div>
+    </div>
+
+        <div class="contenedor" style="margin-top: 50px; position: relative;">
+        <div class="boton1" onclick="location.href='#seccion2'" style="background-color: unset; padding: 20px; box-sizing: border-box; color: #E3AC16; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); font-size: 20px; text-align: center; ">¿ Quien Soy ?</div>
+        <div class="boton2" onclick="window.open('Digitales/index2.html', '_blank')" style="background-color: unset; padding: 20px; box-sizing: border-box; color: #3F4DE6; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); font-size: 20px; text-align: center;">Proyectos Digitales</div> 
+        <div class="boton3" onclick="window.open('Analogos/index3.html', '_blank')" style="background-color: unset; padding: 20px; box-sizing: border-box; color: #780076; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); font-size: 20px; text-align: center;">Proyectos Analogos</div> 
+        <div class="boton4" onclick="location.href='#seccion3'" style="background-color: unset; padding: 20px; box-sizing: border-box; color: #da3434; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); font-size: 20px; text-align: center;">Contactos</div>
+    </div>
+
+    </div>
+    
+    <div>
+        <p style="color: rgb(65, 65, 65); font-size: 60px; margin-top: 200px; text-align: center; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Mejores Trabajos:</p>
+    </div>
+    
+     <div class="exivision">
+        <div class="itemCarrusel" id="carrusel1">
+            <div class="tarjetaCarrusel" id="tarjeta1">
+            </div>
+            <div class="flechasCarrusel">
+                <a href="#carrusel3">
+                    <i>
+                        <img src="Sin título-2.png" height="50px">
+                    </i>
+                </a>
+
+                <a href="#carrusel2">
+                    <i>
+                        <img src="Sin título-1.png" height="50px">
+                    </i>
+                </a>
+            </div>
+
+        </div>
+
+
+
+        <div class="itemCarrusel" id="carrusel2">
+            <div class="tarjetaCarrusel" id="tarjeta2">
+            </div>
+            <div class="flechasCarrusel">
+                <a href="#carrusel1">
+                    <i>
+                        <img src="Sin título-2.png" height="50px">
+                    </i>
+                </a>
+                <a href="#carrusel3">
+                    <i>
+                        <img src="Sin título-1.png" height="50px">
+                    </i>
+                </a>
+            </div>
+
+        </div>
+
+
+
+        <div class="itemCarrusel" id="carrusel3">
+            <div class="tarjetaCarrusel" id="tarjeta3">
+            </div>
+            <div class="flechasCarrusel">
+                <a href="#carrusel2">
+                    <i>
+                        <img src="Sin título-2.png" height="50px">
+                    </i>
+                </a>
+                <a href="#carrusel1">
+                    <i>
+                        <img src="Sin título-1.png" height="50px">
+                    </i>
+                </a>
+            </div>
+
+        </div>
+
+     </div>
+    
+    <div class="presentacion" id="seccion2" style="padding: 10px; ">
+
+        <p style="
+        margin: 20px;
+        color: white; 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+        font-size: 65px;
+        text-align: center;">
+        HOLA!!!
+        </p>
+
+        <p style="
+        text-align: center;
+        margin: 20px;
+        color: white; 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+        font-size: 32px;
+        margin-bottom: 80px;
+        padding: 20px;">
+        Me llamo Benjamin, soy... quien soy? a nadie le importa... vean mis trabajos! hablan mas por mi que yo de mi mismo! <br>
+        no, en serio... soy un diseñador aún en formacion academica. este es mi portafolio y aquí encontraras parte de lo que han sido mis proyectos durante este proceso.
+        </p>
+
+    </div>
+
+    <div class="gato" style="margin-top: 150px;">
+        <img src="YO.png" style="width: 600px; height: auto;">
+    </div>
+
+    <div class="contenedor" style="margin-top: 150px;" >
+        
+        <div class="barra" id="seccion3" style="box-shadow: none; padding: 20px; box-sizing: border-box;">
+            <div class="redesimg">        
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

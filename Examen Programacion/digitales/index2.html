@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos Digitales Benjamin Mellado</title>
+
+    <style>
+        @font-face {
+            font-family:"Krona One";
+            src: url('./Krona_One/KronaOne-Regular.ttf');
+        }
+
+        body{
+            background-image: url(FondoE.jpg);
+            font-family: "Krona One";
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+        }
+
+        .barra{
+            background-color: #3F4DE6;
+            height: 180px;
+            width: 100%;         
+            grid-template-columns: max-content;
+            object-position: 50%;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        .barra2{
+            background-color:rgb(65, 65, 65);
+            height: 180px;
+            width: 100%;         
+            box-sizing: border-box;
+            position: absolute;
+        }
+        .yoimg{
+            height: 150px;
+            width: 400px;
+            background-image: url(titulo\ de\ pagina.png);
+            background-size: contain;
+            margin: 0 auto;
+            background-repeat: no-repeat;
+        }
+
+         .redesimg{
+            height: 160px;
+            width: 500px;
+            background-image: url(redes.png);
+            background-size: contain;
+            margin: 0 auto;
+            background-repeat: no-repeat
+            
+        }
+        .info{
+            height: 100%;
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 200px;
+        }
+
+        a{
+            text-decoration: none;
+        }
+        .grilla {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        @media (max-width: 700px) {
+        .contenedor {
+        flex-direction: column;
+        text-align: center;
+         }
+        }
+
+        .contenedor{
+            display: flex;
+            align-items: center;
+            gap: 60px;           
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .caja{
+            border-radius: 12px;
+        }
+
+        .texto{
+            background: #3f6bff;
+            color: white;
+            padding: 20px;
+            width: 550px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .imagen img{
+            width: 480px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header class="texto1">
+    <div class="barra">
+        <div class="yoimg">
+        </div>
+    </div>
+
+</header>
+
+     <div>
+        <p style="color: #3f6bff; 
+        font-size: 60px; 
+        margin-top: 100px; 
+        text-align: center; 
+        margin-bottom: 100px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Proyectos Digitales:</p>
+    </div>
+
+<div class="contenedor" style="
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 50px;">
+    <div class="caja texto">
+        <h2>Revista “New Yorker”</h2>
+        <p>
+            En este proyecto, se hizo la tarea de inspirarse de las revistas del “new yorker” 
+            para poder recrear nuestra propia versión de la revista, tomando como inspiración 
+            el parque de diversiones “Fantasilandia” y una paleta de colores adecuada al país.
+        </p>
+    </div>
+
+    <div class="caja imagen">
+        <img src="BenjaminMelladoRevista.jpg">
+    </div>
+</div>
+
+<div class="contenedor" style="
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 50px;">
+    <div class="caja texto">
+        <h2>Portadas de Revista </h2>
+        <p>
+            Este proyecto, se vio en la misión de crear nuestra propia revista en base a un tema elegido personalmente. 
+            en mi caso, elegí el tema de los “videojuegos” ya que es un tema que me apasiona y queria mostrar la evolución de las revistas en si. 
+            creando una pieza mas onda retro, y una pieza mas actual para visualizar ese contraste entre epocas. 
+        </p>
+    </div>
+
+    <div class="caja imagen">
+        <img src="revistas.png" style="height: 500px; width: auto; background-color: unset;">
+    </div>
+</div>
+
+<div class="contenedor" style="
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 50px;">
+    <div class="caja texto">
+        <h2>Pixelizar</h2>
+        <p>
+            En este trabajo, se dio la misión de recrear una obra antigua a base de solo pixeles. 
+            para ello se tomo de referencia la imagen original y se fue trabajando sobre ella. 
+            buscando el mejor resultado que se asemeje a la obra original.
+        </p>
+    </div>
+
+    <div class="caja imagen">
+        <img src="pixelizar.png" style="height: 350px; width: auto; background-color: unset;">
+    </div>
+</div>
+
+<div class="contenedor" style="
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 50px;">
+    <div class="caja texto">
+        <h2>Representación Visual</h2>
+        <p>
+            En este proyecto, se busco llegar a lo mas profundo de uno mismo. el que somos y que nos causa inseguridades. 
+            en mi caso, quise plasmar la dualidad que siento a la hora de hacer trabajos, 
+            como a veces puedo sentirme en la cim del mundo pero a veces en lo mas profundo de la tierra.
+        </p>
+    </div>
+
+    <div class="caja imagen">
+        <img src="personal.png" style="height: 600px; width: auto; background-color: unset;">
+    </div>
+</div>
+
+<div class="contenedor" style="
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 50px;">
+    <div class="caja texto">
+        <h2>Kv Fnaf</h2>
+        <p>
+            En este proyecto, tuve que crear un “Key Visual” a partir de la premisa de promocionar un producto. en mi caso: 
+            un jugete de Foxy de “Five nights at freddy’s” teniendo que enfrentarme al cmo adpatar un misimo material a diferentes formatos.
+        </p>
+    </div>
+
+    <div class="caja imagen">
+        <img src="fnaf.png" style="height: 650px; width: auto; background-color: unset;">
+    </div>
+</div>
+
+<div class="contenedor" style="
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 50px;">
+    <div class="caja texto">
+        <h2>Kv Fnaf</h2>
+        <p>
+            En este caso, tambien tuve que hacer un “key visual” sin embargo, 
+            esta vez requeria del uso de un modelo y una premisa que mantuviera un mismo contexto. por mi parte, 
+            hice una representacion grafica de “lego batman” en un entorno dramatico y lleno de lluvia.
+        </p>
+    </div>
+
+    <div class="caja imagen">
+        <img src="batman.png" style="height: 700px; width: auto; background-color: unset;">
+    </div>
+</div>
+
+     <div>
+        <p style="color: #3f6bff; 
+        font-size: 40px; 
+        margin-top: 200px; 
+        text-align: center; 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Más proyectos serán agregados con el tiempo...</p>
+    </div>
+
+    <div class="barra2" style="margin-top: 100px" >
+        
+        <div class="barra2" style="padding: 20px; box-sizing: border-box;">
+            <div class="redesimg">        
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
